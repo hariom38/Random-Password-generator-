@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client"
 
 
 function RandomPasswordGenerator(){
-    const[password,setpassword]=useState("")
+    const[password,setpassword]=useState("") 
     const [length, setlength]=useState(10);
     const[numberchanged, setnumberchanged]=useState(false);
     const[charchanged,setcharchanged]=useState(false);
